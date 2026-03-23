@@ -1,0 +1,258 @@
+{
+  "templates": [
+    {
+      "name": "about-brand",
+      "urls": [
+        "https://www.lg.com/ae/about-lg/our-brand/index"
+      ],
+      "description": "LG UAE About - Our Brand page showcasing company brand story, values, and identity",
+      "blocks": [
+        {
+          "name": "cards-feature",
+          "instances": [
+            ".component.GPC0067.img4"
+          ]
+        },
+        {
+          "name": "columns-media",
+          "instances": [
+            ".component.GPC0062 .half-type",
+            "ul.unit-box-list.jeong-do-desc:first-of-type"
+          ]
+        },
+        {
+          "name": "columns-info",
+          "instances": [
+            ".component.GPC0067:has(.size-companyinfobox)",
+            "ul.jeong-do-desc.border-top",
+            "div.global-operations",
+            ".component.GPC0069:has(.img-lt-lg)"
+          ]
+        },
+        {
+          "name": "carousel-timeline",
+          "instances": [
+            ".history-slide"
+          ]
+        },
+        {
+          "name": "cards-executive",
+          "instances": [
+            ".executive-list"
+          ]
+        },
+        {
+          "name": "cards-download",
+          "instances": [
+            ".symbol-list"
+          ]
+        },
+        {
+          "name": "cards-banner",
+          "instances": [
+            ".component.GPC0062 > ul.unit-list:has(h3)"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "s1",
+          "name": "Page Hero",
+          "selector": ".component.GPC0054:has(h1)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".component.GPC0054:has(h1) h1",
+            ".component.GPC0054:has(h1) p"
+          ]
+        },
+        {
+          "id": "s2",
+          "name": "Anchor Navigation",
+          "selector": ".component.GPC0117",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".component.GPC0117 a.tab"
+          ]
+        },
+        {
+          "id": "s3",
+          "name": "Overview",
+          "selector": "#overview",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#overview .heading-box .title",
+            "#overview .head-copy",
+            "#overview .body-copy"
+          ]
+        },
+        {
+          "id": "s4",
+          "name": "Business Divisions",
+          "selector": ".component.GPC0067.img4",
+          "style": null,
+          "blocks": [
+            "cards-feature"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s5",
+          "name": "Brand Film CTA",
+          "selector": ".component.GPC0062:has(.half-type)",
+          "style": null,
+          "blocks": [
+            "columns-media"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s6",
+          "name": "Company Information",
+          "selector": ".component.GPC0067:has(.size-companyinfobox)",
+          "style": null,
+          "blocks": [
+            "columns-info"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s7",
+          "name": "History",
+          "selector": [
+            "#history",
+            ".history-slide"
+          ],
+          "style": null,
+          "blocks": [
+            "carousel-timeline"
+          ],
+          "defaultContent": [
+            "#history .heading-box .title",
+            "#history .head-copy",
+            "#history .body-copy"
+          ]
+        },
+        {
+          "id": "s8",
+          "name": "Jeong-Do Management",
+          "selector": [
+            "#jeongdo-management",
+            ".component.GPC0069:has(h2:contains('LG Way'))"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#jeongdo-management .heading-box .title",
+            "#jeongdo-management .head-copy",
+            ".component.GPC0069 h2",
+            ".component.GPC0069 .text"
+          ]
+        },
+        {
+          "id": "s9",
+          "name": "Jeong-Do Vision",
+          "selector": "ul.unit-box-list.jeong-do-desc:first-of-type",
+          "style": null,
+          "blocks": [
+            "columns-media"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s10",
+          "name": "Code of Ethics and Compliance",
+          "selector": "ul.jeong-do-desc.border-top",
+          "style": null,
+          "blocks": [
+            "columns-info"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s11",
+          "name": "Executives",
+          "selector": [
+            "#executives",
+            ".executive-list"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-executive"
+          ],
+          "defaultContent": [
+            "#executives .heading-box .title",
+            "#executives .head-copy"
+          ]
+        },
+        {
+          "id": "s12",
+          "name": "Global Operations",
+          "selector": "#global-operations",
+          "style": null,
+          "blocks": [
+            "columns-info"
+          ],
+          "defaultContent": [
+            "#global-operations .heading-box .title",
+            "#global-operations .head-copy"
+          ]
+        },
+        {
+          "id": "s13",
+          "name": "Brand Identity",
+          "selector": "#brand-identity",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#brand-identity .heading-box .title h2",
+            "#brand-identity .head-copy",
+            "#brand-identity .body-copy"
+          ]
+        },
+        {
+          "id": "s14",
+          "name": "Logo Symbol Detail",
+          "selector": ".component.GPC0069:has(.img-lt-lg)",
+          "style": null,
+          "blocks": [
+            "columns-info"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s15",
+          "name": "Logo Description",
+          "selector": ".component.GPC0069:has(.txt:contains('The letters'))",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".component.GPC0069 .txt p"
+          ]
+        },
+        {
+          "id": "s16",
+          "name": "Logo Downloads",
+          "selector": ".symbol-list",
+          "style": null,
+          "blocks": [
+            "cards-download"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s17",
+          "name": "Global Links Banner",
+          "selector": ".component.GPC0062:has(ul.unit-list h3)",
+          "style": "dark",
+          "blocks": [
+            "cards-banner"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-info",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-03-19T01:33:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.lg.com/ae/about-lg/our-brand/index",
+    "originPage": "LG UAE Our Brand - Company Info, Code of Ethics, Global Ops, Logo Detail",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "info-layout",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "text + structured info per column",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": ["informational two-column layouts", "company info sections", "document download sections", "structured data layouts"],
+    "notSuitableFor": ["image galleries", "media CTAs", "social links"]
+  },
+  "usage": {
+    "pagesUsing": ["content/ae/about-lg/our-brand/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-19T01:33:00.000Z"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "variantName": "carousel-timeline",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-03-19T01:33:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.lg.com/ae/about-lg/our-brand/index",
+    "originPage": "LG UAE Our Brand - History Timeline",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "timeline",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + milestone list per slide",
+    "buttonCount": 0,
+    "imageCount": 4
+  },
+  "reuseGuidance": {
+    "suitableFor": ["history timelines", "milestone carousels", "era-based content sliders"],
+    "notSuitableFor": ["product carousels", "hero banners", "image galleries"]
+  },
+  "usage": {
+    "pagesUsing": ["content/ae/about-lg/our-brand/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-19T01:33:00.000Z"
+  }
+}

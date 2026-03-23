@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-mosaic",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-09T06:44:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.lg.com/be_fr",
+    "originPage": "LG Belgium homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "compact",
+    "purpose": "category-mosaic",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + category name overlay",
+    "buttonCount": 0,
+    "imageCount": 7
+  },
+  "reuseGuidance": {
+    "suitableFor": ["product category grids", "visual mosaic layouts", "image-heavy navigation"],
+    "notSuitableFor": ["text-heavy cards", "icon-based cards", "product detail cards"]
+  },
+  "usage": {
+    "pagesUsing": ["/be-fr"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-09T06:44:00.000Z"
+  }
+}

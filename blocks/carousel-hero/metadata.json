@@ -1,0 +1,31 @@
+{
+  "variantName": "carousel-hero",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-03-09T06:44:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.lg.com/be_fr",
+    "originPage": "LG Belgium homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "homepage-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 14
+  },
+  "reuseGuidance": {
+    "suitableFor": ["homepage hero banners", "promotional landing pages", "full-width image carousels"],
+    "notSuitableFor": ["text-only content", "small thumbnail carousels", "product detail pages"]
+  },
+  "usage": {
+    "pagesUsing": ["/be-fr"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-09T06:44:00.000Z"
+  }
+}

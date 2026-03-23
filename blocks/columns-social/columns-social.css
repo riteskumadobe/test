@@ -1,0 +1,33 @@
+.columns-social > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-social img {
+  width: 100%;
+}
+
+.columns-social > div > div {
+  order: 1;
+}
+
+.columns-social > div > .columns-social-img-col {
+  order: 0;
+}
+
+.columns-social > div > .columns-social-img-col img {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .columns-social > div {
+    align-items: center;
+    flex-direction: unset;
+    gap: 24px;
+  }
+
+  .columns-social > div > div {
+    flex: 1;
+    order: unset;
+  }
+}

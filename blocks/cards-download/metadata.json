@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-download",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-19T01:33:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.lg.com/ae/about-lg/our-brand/index",
+    "originPage": "LG UAE Our Brand - Logo Downloads section",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "asset-download",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + list + download CTA",
+    "buttonCount": 1,
+    "imageCount": 2
+  },
+  "reuseGuidance": {
+    "suitableFor": ["asset download sections", "resource cards with previews", "file download grids"],
+    "notSuitableFor": ["product cards", "team profiles", "icon-based cards"]
+  },
+  "usage": {
+    "pagesUsing": ["content/ae/about-lg/our-brand/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-19T01:33:00.000Z"
+  }
+}

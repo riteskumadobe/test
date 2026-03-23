@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "url": "https://www.lg.com/ae/about-lg/our-brand/index",
+  "path": "ae/about-lg/our-brand",
+  "timestamp": "2026-03-19T02:47:59.712Z",
+  "title": "Our Brand | About LG | LG UAE",
+  "template": "about-brand",
+  "blocks": [
+    "cards-feature",
+    "cards-feature",
+    "columns-media",
+    "columns-media",
+    "columns-media",
+    "columns-info",
+    "columns-info",
+    "columns-info",
+    "columns-info",
+    "columns-info",
+    "carousel-timeline",
+    "cards-executive",
+    "cards-download",
+    "cards-banner"
+  ]
+}

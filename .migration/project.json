@@ -1,0 +1,10 @@
+{
+  "type": "xwalk",
+  "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json",
+  "detectedFrom": "fstab.yaml mountpoint URL (author-p142275-e1456130.adobeaemcloud.com with type:markup), root-level component-definition.json/component-filters.json/component-models.json, _<block-name>.json model files in blocks/ directories, eslint-plugin-xwalk in node_modules",
+  "contentHostUrl": "author-p142275-e1456130.adobeaemcloud.com",
+  "aemSitePath": "/content/eds-modern-agent",
+  "aemAssetsFolderPath": "/content/dam/eds-modern-agent",
+  "aemSiteName": "eds-modern-agent",
+  "aemSiteTitle": "eds-modern-agent"
+}

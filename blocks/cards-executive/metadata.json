@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-executive",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-19T01:33:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.lg.com/ae/about-lg/our-brand/index",
+    "originPage": "LG UAE Our Brand - Executives section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "team-profile",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + name + title",
+    "buttonCount": 0,
+    "imageCount": 6
+  },
+  "reuseGuidance": {
+    "suitableFor": ["executive profiles", "team member grids", "people directories"],
+    "notSuitableFor": ["product cards", "feature highlights", "icon-based cards"]
+  },
+  "usage": {
+    "pagesUsing": ["content/ae/about-lg/our-brand/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-19T01:33:00.000Z"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "variantName": "columns-media",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-03-19T01:33:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.lg.com/ae/about-lg/our-brand/index",
+    "originPage": "LG UAE Our Brand - Brand Film CTA and Vision sections",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "media-content",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + text + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": ["image + text CTA layouts", "media content sections", "side-by-side image and description"],
+    "notSuitableFor": ["icon-based columns", "social links", "contact info layouts"]
+  },
+  "usage": {
+    "pagesUsing": ["content/ae/about-lg/our-brand/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-19T01:33:00.000Z"
+  }
+}
