@@ -1,1 +1,10 @@
 helix-importer-ui
+tools/
+*.bundle.js
+crawl-urls.js
+extract_urls.js
+generate-estimates.js
+generate-authoring-estimates.js
+combine-estimates.js
+analyze-unclassified.js
+search_transcript.js

@@ -7,3 +7,14 @@ helix-importer-ui
 .DS_Store
 *.bak
 .idea
+
+# Utility scripts (not EDS project code)
+crawl-urls.js
+extract_urls.js
+generate-estimates.js
+generate-authoring-estimates.js
+combine-estimates.js
+analyze-unclassified.js
+search_transcript.js
+*.xlsx
+urls-*.txt
