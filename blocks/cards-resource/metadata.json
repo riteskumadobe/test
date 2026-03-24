@@ -1,0 +1,31 @@
+{
+  "variantName": "cards-resource",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-24T00:34:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.lg.com/ae/business/commercial-laundry",
+    "originPage": "LG UAE Commercial Laundry - Resource Cards",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "resource-mosaic",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "linked image + heading + optional description",
+    "buttonCount": 0,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": ["resource link sections", "asymmetric mosaic grids", "linked image cards with text overlay"],
+    "notSuitableFor": ["regular grid cards", "text-heavy cards", "product features"]
+  },
+  "usage": {
+    "pagesUsing": ["content/ae/business/commercial-laundry"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-24T00:34:00.000Z"
+  }
+}

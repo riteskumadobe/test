@@ -4,7 +4,7 @@
 /**
  * Transformer: LG UAE site cleanup.
  * Removes non-authorable chrome (header, footer, nav, banners, modals, breadcrumbs).
- * All selectors from captured DOM of lg.com/ae/about-lg/our-brand/index.
+ * All selectors from captured DOM of lg.com/ae pages (about-lg/our-brand, business/commercial-laundry).
  */
 const H = { before: 'beforeTransform', after: 'afterTransform' };
 
@@ -38,6 +38,7 @@ export default function transform(hookName, element, payload) {
       'link',
       'noscript',
       'script',
+      '.GPC0076.floating-menu',
     ]);
 
     // Remove tracking/analytics attributes from all elements

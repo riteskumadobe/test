@@ -253,6 +253,32 @@
     ]
   },
   {
+    "id": "cards-resource",
+    "fields": [
+      {
+        "component": "group",
+        "name": "card",
+        "label": "Card",
+        "repeatable": true,
+        "fields": [
+          {
+            "component": "reference",
+            "valueType": "string",
+            "name": "image",
+            "label": "Image",
+            "multi": false
+          },
+          {
+            "component": "richtext",
+            "name": "text",
+            "label": "Text",
+            "valueType": "string"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {

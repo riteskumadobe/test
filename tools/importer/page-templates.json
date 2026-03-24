@@ -1,6 +1,109 @@
 {
   "templates": [
     {
+      "name": "business-commercial-laundry",
+      "urls": [
+        "https://www.lg.com/ae/business/commercial-laundry"
+      ],
+      "description": "LG UAE B2B commercial laundry category page showcasing commercial washing machines and dryers for business customers",
+      "blocks": [
+        {
+          "name": "hero",
+          "instances": [
+            ".component.GPC0078"
+          ]
+        },
+        {
+          "name": "hero-promo",
+          "instances": [
+            "#iw_comp1587097986691 .component.GPC0055",
+            "#iw_comp1587097986754 .component.GPC0055",
+            "#iw_comp1587097986768 .component.GPC0055",
+            "#iw_comp1587097986790 .component.GPC0055"
+          ]
+        },
+        {
+          "name": "cards-resource",
+          "instances": [
+            ".component.GPC0059.type-triple"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "s1",
+          "name": "Page Title",
+          "selector": ".component.GPC0054",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".component.GPC0054 h1",
+            ".component.GPC0054 .copy"
+          ]
+        },
+        {
+          "id": "s2",
+          "name": "Hero Banner",
+          "selector": ".component.GPC0078",
+          "style": null,
+          "blocks": [
+            "hero"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s3",
+          "name": "Product Feature - Titan-C",
+          "selector": "#iw_comp1587097986691 .component.GPC0055",
+          "style": null,
+          "blocks": [
+            "hero-promo"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s4",
+          "name": "Product Feature - Giant-C+",
+          "selector": "#iw_comp1587097986754 .component.GPC0055",
+          "style": null,
+          "blocks": [
+            "hero-promo"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s5",
+          "name": "Product Feature - Atom",
+          "selector": "#iw_comp1587097986768 .component.GPC0055",
+          "style": null,
+          "blocks": [
+            "hero-promo"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s6",
+          "name": "Resource Cards",
+          "selector": ".component.GPC0059.type-triple",
+          "style": null,
+          "blocks": [
+            "cards-resource"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s7",
+          "name": "Contact CTA Banner",
+          "selector": "#iw_comp1587097986790 .component.GPC0055",
+          "style": null,
+          "blocks": [
+            "hero-promo"
+          ],
+          "defaultContent": []
+        }
+      ]
+    },
+    {
       "name": "about-brand",
       "urls": [
         "https://www.lg.com/ae/about-lg/our-brand/index"
